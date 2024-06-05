@@ -10,7 +10,7 @@ module.exports = removeImports({
     return [
       {
         source: "/api/v1/:path*",
-        destination: "http://localhost:5003/api/v1/:path*",
+        destination: "https://peppermint-api.vercel.app/api/v1/:path*",
       },
     ];
   },
